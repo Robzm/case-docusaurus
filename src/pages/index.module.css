@@ -10,6 +10,16 @@
   overflow: hidden;
 }
 
+.circularGif {
+  width: 300px;       /* Ajusta el tamaño */
+  height: 300px;
+  border-radius: 50%; /* Lo hace circular */
+  object-fit: cover;  /* Para que no se deforme */
+  margin-bottom: 1rem;
+   
+}
+
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
