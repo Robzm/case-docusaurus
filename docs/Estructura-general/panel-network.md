@@ -6,6 +6,8 @@ sidebar_position: 5
 El Panel de Red (Network) en las herramientas de desarrollo del navegador te permite inspeccionar todas las solicitudes que realiza una página web. Esto incluye archivos estáticos como imágenes, hojas de estilo y scripts, así como solicitudes dinámicas a APIs. Es una herramienta crucial para analizar el rendimiento de la página y depurar problemas de red.
 
 ### Ver archivos cargados
+![alt text](image-8.png)
+
 El Panel de Red muestra todos los archivos que la página solicita durante su carga, como imágenes, scripts, hojas de estilo y otros recursos. Esto te permite ver qué archivos están siendo solicitados y si hay algún problema con la carga de estos archivos.
 
 - **Filtrar por tipo de archivo:** Puedes filtrar los tipos de archivos cargados (como imágenes, scripts, CSS, etc.) usando los botones de filtro disponibles en la parte superior del panel.
