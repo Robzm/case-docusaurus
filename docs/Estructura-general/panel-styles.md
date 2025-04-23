@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: "🎨 Panel Styles"
 ---
 
 # Panel "Styles" (CSS)
@@ -9,7 +10,7 @@ sidebar_position: 2
 
 El panel **Styles** te permite ver y modificar los estilos CSS aplicados a cualquier elemento de la página, en tiempo real. Es una herramienta clave para diseñadores y desarrolladores front-end.
 
-### 👁️ Ver estilos aplicados
+###  Ver estilos aplicados
 
 Al seleccionar un elemento en el panel "Elements", el panel "Styles" muestra todas las reglas CSS que se aplican a él, incluyendo:
 
@@ -17,17 +18,17 @@ Al seleccionar un elemento en el panel "Elements", el panel "Styles" muestra tod
 - Propiedades (`color`, `margin`, `display`, etc.)
 - Archivo de origen y número de línea
 
-### 🛠️ Modificar estilos en tiempo real
+###  Modificar estilos en tiempo real
 
 Podés hacer clic en cualquier propiedad CSS para editar su valor. Los cambios se reflejan inmediatamente en la página, lo que facilita pruebas rápidas de diseño.
 
 También podés agregar nuevas propiedades escribiéndolas directamente.
 
-### ✅ Activar/desactivar propiedades
+###  Activar/desactivar propiedades
 
 Cada regla tiene una casilla de verificación al lado. Al desactivarla, esa propiedad se omite sin eliminarla, útil para hacer pruebas visuales rápidas.
 
-### 📚 Estilos heredados y prioridades
+###  Estilos heredados y prioridades
 
 El panel también muestra:
 
