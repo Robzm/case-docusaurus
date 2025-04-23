@@ -13,7 +13,7 @@ function HomepageHeader() {
   return (
     <header className={clsx( styles.heroBanner)}>
       <div className="container">
-      <img src={useBaseUrl('/img/gifa.gif')} alt="Avatar animado" className={styles.circularGif} />
+      <img src={useBaseUrl('/img/gifa2.gif')} alt="Avatar animado" className={styles.circularGif} />
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
