@@ -8,7 +8,7 @@ El panel **"Application"** en las herramientas de desarrollo del navegador permi
 
 ---
 
-### 📦 ¿Qué puedes ver en el panel "Application"?
+###  ¿Qué puedes ver en el panel "Application"?
 
 #### 1. Local Storage
 - Almacena datos clave-valor de forma persistente.
@@ -47,13 +47,13 @@ sessionStorage.setItem('token', 'abc123');
 - Define comportamiento como aplicación instalada (nombre, íconos, tema, etc.).
 - Importante para Progressive Web Apps (PWAs).
 
-### 🛠️ Casos de uso comunes
+### 7. Casos de uso comunes
 - Verificar si los datos se están guardando correctamente en `localStorage` o `sessionStorage`.
 - Probar el inicio de sesión o forzar estados manuales editando cookies.
 - Eliminar almacenamiento para hacer una recarga limpia del sitio.
 - Comprobar si los recursos están en caché o si un Service Worker está activo.
 
-### ✅ Consejo útil
+###  Consejo útil
 
 Haz clic en **"Clear site data"** para borrar todos los datos de almacenamiento del sitio. Esto incluye cookies, caché, almacenamiento local y más. Es muy útil para hacer pruebas desde cero.
 
