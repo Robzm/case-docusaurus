@@ -2,22 +2,59 @@
 sidebar_position: 6
 ---
 
-# Congratulations!
+# Panel "Application"
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+El panel **"Application"** en las herramientas de desarrollo del navegador permite inspeccionar y gestionar recursos del lado del cliente que una página web almacena en el navegador del usuario. Es especialmente útil en aplicaciones web modernas que necesitan guardar datos en el navegador.
 
-Docusaurus has **much more to offer**!
+---
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+### 📦 ¿Qué puedes ver en el panel "Application"?
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+#### 1. Local Storage
+- Almacena datos clave-valor de forma persistente.
+- No se borra al cerrar el navegador.
+- Ideal para guardar preferencias del usuario.
 
-## What's next?
+```javascript
+localStorage.setItem('usuario', 'Juan');
+```
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+#### 2. Session Storage
+- Similar al Local Storage, pero los datos se eliminan al cerrar la pestaña.
+- Útil para datos temporales de una sesión de usuario.
+
+```javascript
+sessionStorage.setItem('token', 'abc123');
+```
+
+#### 3. Cookies
+- Pequeños fragmentos de datos usados para autenticación, rastreo, etc.
+- Puedes ver nombre, valor, dominio, expiración y más.
+- Se pueden editar o eliminar desde este panel.
+
+#### 4. IndexedDB
+- Una base de datos completa del lado del cliente.
+- Permite almacenar objetos complejos y grandes volúmenes de datos.
+- Muy usado por aplicaciones web progresivas (PWA).
+
+#### 5. Cache Storage / Service Workers
+- Permite ver recursos guardados en caché por un Service Worker.
+- Útil para aplicaciones que funcionan sin conexión (offline).
+- Puedes inspeccionar archivos cacheados y eliminarlos.
+
+#### 6. Manifest
+- Archivo `manifest.json` de la app web.
+- Define comportamiento como aplicación instalada (nombre, íconos, tema, etc.).
+- Importante para Progressive Web Apps (PWAs).
+
+### 🛠️ Casos de uso comunes
+- Verificar si los datos se están guardando correctamente en `localStorage` o `sessionStorage`.
+- Probar el inicio de sesión o forzar estados manuales editando cookies.
+- Eliminar almacenamiento para hacer una recarga limpia del sitio.
+- Comprobar si los recursos están en caché o si un Service Worker está activo.
+
+### ✅ Consejo útil
+
+Haz clic en **"Clear site data"** para borrar todos los datos de almacenamiento del sitio. Esto incluye cookies, caché, almacenamiento local y más. Es muy útil para hacer pruebas desde cero.
+
+
